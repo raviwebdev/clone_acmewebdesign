@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+}
+
+header .logo{
+    float: left;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+header .navbar{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current {
+    color: #e8491d;
+    font-weight: bold ;
+}
+
+li:hover{
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.showcase{
+    min-height: 400px ;
+    background: url('Img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.showcase h1{
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    
+}
+
+.showcase p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subscriber{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+}
+
+.subscriber h2{
+
+    float: left;
+
+}
+
+.subscriber form{
+    float: right;
+    margin-top: 20px;
+}
+
+.subscriber input[type="email"]{
+    padding: 5px;
+    height: 22px;
+    width: 300px;
+}
+
+.subscribe-btn{
+    height: 36px;
+    background: #e8491d;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+}
+
+.services > div{
+    display: flex;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.services .container img {
+    width: 90px;
+}
+
+footer{
+    margin-top: 35px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #e8491d ;
+    height: 100px;
+}
+
+footer > p {
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+/* About us Page */
+.aboutus{
+        margin-left: 138px;
+        width: 60%;
+}
+
+.para-highlight{
+    background-color: #35424a;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
