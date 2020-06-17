@@ -130,9 +130,20 @@ footer > p {
 }
 
 /* About us Page */
-.aboutus{
-        margin-left: 138px;
-        width: 60%;
+#aboutus{
+float: left;
+width: 60%;
+}
+
+
+aside{
+    display: block;
+}
+
+aside#right-para{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
 }
 
 .para-highlight{
@@ -141,4 +152,8 @@ footer > p {
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px ;
-}
+}   
+
+
+
+
