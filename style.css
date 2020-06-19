@@ -152,7 +152,52 @@ aside#right-para{
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px ;
-}   
+}  
+
+
+/* Services layout */
+
+#left-align{
+    width: 60%;
+    float: left;
+}
+
+.item1{
+    border: 1px solid #cccccc;
+    background-color: #e6e6e6;
+    padding: 20px 15px;
+    margin-bottom: 5px;
+}
+
+aside#form{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.equal{
+    width: 90%;
+    height: 20px;
+}
+
+#message{
+    height: 40px;
+    width: 90%;
+}
+
+#submit{
+        height: 36px;
+        background: #e8491d;
+        color: #ffffff;
+        border: none;
+        width: 70px;
+
+}
+
+
+
+
+
 
 
 
